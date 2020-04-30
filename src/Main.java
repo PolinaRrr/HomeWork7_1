@@ -13,7 +13,10 @@ public class Main {
 
     }
 
-    //кормим всех котов и выводим сытость
+    /**
+     * метод кормления всех котов
+     * @param catsArray
+     */
     private static void feedCats(Cat[] catsArray){
         Bowl someBowl = new Bowl(500);
         someBowl.fillFood(200);
